@@ -1,0 +1,154 @@
+* {
+  box-sizing: border-box;
+}
+:root {
+  --dark-blue: #0d1117;
+  --dark-blue-2: #11161e;
+  --blue: #14265f;
+  --bright-blue: #132e86;
+  --red: #b4192b;
+  --bright-red: #dd1c33;
+  --purple: #610bb1;
+  --white: #d8d8d8;
+  --grey: #c7c7c7;
+  --grey-2: #282a36;
+}
+body {
+  background-color: var(--dark-blue);
+}
+p {
+  margin-bottom: 0;
+}
+
+pre {
+  margin-top: 15px;
+  margin-bottom: 0;
+  font-size: 1rem;
+}
+.cursor-pointer {
+  cursor: pointer !important;
+}
+
+.menu {
+  position: fixed;
+  width: 200px;
+  height: 100vh;
+  transition: all 0.2s ease-in-out;
+  background-color: var(--dark-blue-2);
+}
+
+.menu-button {
+  position: fixed;
+  background-color: var(--purple);
+  border: none;
+  width: 40px;
+  height: 40px;
+  border-bottom-right-radius: 10px;
+  /* display: flex;
+  flex-direction: column;
+  justify-content: space-around; */
+}
+.menu-button-line {
+  height: 3px;
+  width: 80%;
+  background-color: var(--white);
+  margin: 5px 0px 5px 2px;
+  border-radius: 10px;
+}
+.logo {
+  z-index: 1;
+  object-fit: contain;
+  width: 100px;
+  border-radius: 5px;
+  margin-left: 15px;
+  margin-top: 15px;
+}
+
+.slogan {
+  margin-top: 5px;
+  margin-left: 15px;
+  color: var(--grey);
+}
+
+.separator {
+  margin-top: 15px;
+  height: 1px;
+  background-color: var(--purple);
+}
+.menu-item {
+  display: flex;
+  align-items: center;
+  padding: 15px;
+  margin: 5px 0px 5px 0px;
+  color: var(--grey);
+  transition: all 0.2s ease-in-out;
+}
+.menu-item:hover {
+  color: var(--white);
+  background-color: var(--purple);
+}
+
+.md-h1 {
+  border-bottom: 1px solid var(--grey-2);
+  width: 100%;
+}
+.md-h1,
+.md-h2,
+.md-h3 {
+  color: var(--grey);
+  margin-top: 30px;
+}
+.md-ul {
+  color: var(--grey);
+}
+.md-text,
+.md-li {
+  font-size: 1.1rem;
+  color: var(--grey);
+}
+.md-code {
+  margin: 0 !important;
+  margin-bottom: 10px !important;
+}
+
+.npm-button,
+.gh-button,
+.gh-button-repo {
+  background-color: var(--red);
+  border: none;
+  color: var(--white);
+  padding: 5px 15px 8px 10px;
+  border-top-right-radius: 50px;
+  border-bottom-right-radius: 50px;
+  margin-bottom: 5px;
+  transition: all 0.2s ease-in-out;
+}
+
+.gh-button,
+.gh-button-repo {
+  background-color: var(--blue);
+}
+
+.gh-button:hover,
+.gh-button-repo:hover {
+  background-color: var(--bright-blue);
+}
+
+.npm-button:hover {
+  background-color: var(--bright-red);
+}
+
+.content-navigation {
+  transition: all 0.2s ease-in-out;
+  border: 1px solid var(--blue);
+  background-color: transparent;
+  color: var(--bright-blue);
+  font-size: 1.2rem;
+  padding: 15px;
+  padding-bottom: 18px;
+  border-radius: 10px;
+}
+.content-navigation:hover {
+  border-color: var(--bright-blue);
+  color: var(--bright-blue);
+}
