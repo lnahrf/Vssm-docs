@@ -6,9 +6,11 @@
   --dark-blue-2: #11161e;
   --blue: #14265f;
   --bright-blue: #132e86;
+  --brighter-blue: #1a3fb6;
   --red: #b4192b;
   --bright-red: #dd1c33;
   --purple: #610bb1;
+  --bright-purple: #8927e4;
   --white: #d8d8d8;
   --grey: #c7c7c7;
   --grey-2: #282a36;
@@ -111,6 +113,13 @@ pre {
   margin-bottom: 10px !important;
 }
 
+.md-a {
+  color: var(--bright-purple);
+}
+
+.md-a:hover {
+  color: var(--bright-purple);
+}
 .npm-button,
 .gh-button,
 .gh-button-repo {
@@ -140,15 +149,16 @@ pre {
 
 .content-navigation {
   transition: all 0.2s ease-in-out;
-  border: 1px solid var(--blue);
+  border: 1px solid var(--bright-blue);
   background-color: transparent;
   color: var(--bright-blue);
   font-size: 1.2rem;
   padding: 15px;
   padding-bottom: 18px;
-  border-radius: 10px;
+  border-radius: 5px;
+  max-width: 150px;
 }
 .content-navigation:hover {
-  border-color: var(--bright-blue);
-  color: var(--bright-blue);
+  border-color: var(--brighter-blue);
+  color: var(--brighter-blue);
 }

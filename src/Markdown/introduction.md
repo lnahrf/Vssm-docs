@@ -1,6 +1,9 @@
-# Very Small State Manager
+# Very Small State Manager (Vssm)
 
 A very small and oversimplified state manager written in pure Javascript.
+
+This documentation site was made using Vssm!
+Check out the source code [here](https://github.com/tk-ni/Vssm-docs).
 
 ## Why?
 

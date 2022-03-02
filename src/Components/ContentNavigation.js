@@ -3,8 +3,15 @@ import { getVSSM } from 'vssm/lib'
 export default function ContentNavigation({ previous, next }) {
   const { route } = getVSSM()
 
-  const handleNextClick = () => (route.current = next)
-  const handlePreviousClick = () => (route.current = previous)
+  const handleNextClick = () => {
+    window.scrollTo({ top: 0, behavior: 'smooth' })
+    route.current = next
+  }
+  const handlePreviousClick = () => {
+    window.scrollTo({ top: 0, behavior: 'smooth' })
+    route.current = previous
+  }
+
   return (
     <div className="d-flex flex-row justify-content-between mt-5">
       {previous ? (
