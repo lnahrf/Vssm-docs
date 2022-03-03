@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Vssm-docs/static/css/main.cd097ff6.css",
-    "main.js": "/Vssm-docs/static/js/main.c4fbc83f.js",
+    "main.js": "/Vssm-docs/static/js/main.882d2687.js",
     "static/media/gettingStarted.md": "/Vssm-docs/static/media/gettingStarted.57689be8608264e896f7.md",
     "static/media/vue3.md": "/Vssm-docs/static/media/vue3.8cf3fbcb4bc5645e4e93.md",
     "static/media/quickGuide.md": "/Vssm-docs/static/media/quickGuide.419dd0c330c7c5eb6daf.md",
@@ -13,10 +13,10 @@
     "static/media/foundABug.md": "/Vssm-docs/static/media/foundABug.5850314ba39ac7bf59d5.md",
     "static/media/contribution.md": "/Vssm-docs/static/media/contribution.9426c9b88c620abace06.md",
     "main.cd097ff6.css.map": "/Vssm-docs/static/css/main.cd097ff6.css.map",
-    "main.c4fbc83f.js.map": "/Vssm-docs/static/js/main.c4fbc83f.js.map"
+    "main.882d2687.js.map": "/Vssm-docs/static/js/main.882d2687.js.map"
   },
   "entrypoints": [
     "static/css/main.cd097ff6.css",
-    "static/js/main.c4fbc83f.js"
+    "static/js/main.882d2687.js"
   ]
 }
