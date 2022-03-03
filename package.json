@@ -1,7 +1,7 @@
 {
   "name": "vssm-docs",
   "version": "0.1.0",
-  "homepage": "https://tk-ni.github.io/vssm-docs",
+  "homepage": "https://tk-ni.github.io/Vssm-docs",
   "private": true,
   "dependencies": {
     "bootstrap": "^5.1.3",
