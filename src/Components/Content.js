@@ -1,4 +1,4 @@
-import { useEffect, useState } from 'react'
+import { useLayoutEffect, useState } from 'react'
 import { getVSSM } from 'vssm/lib'
 import ReactMarkdown from 'react-markdown'
 import { Prism as SyntaxHighlighter } from 'react-syntax-highlighter'
@@ -15,18 +15,19 @@ import vue3 from 'Markdown/vue3.md'
 import foundABug from 'Markdown/foundABug.md'
 import contribution from 'Markdown/contribution.md'
 
+const docs = {
+  introduction: introduction,
+  quickGuide: quickGuide,
+  dosAndDonts: dosAndDonts,
+  gettingStarted: gettingStarted,
+  javascriptFrameworks: javascriptFrameworks,
+  react: react,
+  vue3: vue3,
+  foundABug: foundABug,
+  contribution: contribution
+}
+
 export default function Content() {
-  const docs = {
-    introduction: introduction,
-    quickGuide: quickGuide,
-    dosAndDonts: dosAndDonts,
-    gettingStarted: gettingStarted,
-    javascriptFrameworks: javascriptFrameworks,
-    react: react,
-    vue3: vue3,
-    foundABug: foundABug,
-    contribution: contribution
-  }
   const { route, style } = getVSSM()
   const [markdown, setMarkdown] = useState('')
   const [isMobile, setIsMobile] = useState(style.isMobile)
@@ -41,7 +42,7 @@ export default function Content() {
     }
   }
 
-  useEffect(() => {
+  useLayoutEffect(() => {
     getMD('introduction')
     route.current = () => getMD(route.current.route)
     style.isMobile = () => setIsMobile(style.isMobile)

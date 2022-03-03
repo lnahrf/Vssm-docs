@@ -4,9 +4,6 @@ import { createState, createVSSM } from 'vssm/lib'
 import App from './Components/App'
 
 createVSSM({
-  data: createState('data', {
-    markdown: {}
-  }),
   route: createState('route', {
     paths: [
       {

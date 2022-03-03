@@ -1,12 +1,14 @@
-import { useEffect, useState } from 'react'
+import { useLayoutEffect, useState } from 'react'
 import { getVSSM } from 'vssm/lib'
 import ExternalButtons from './ExternalButtons'
+
 export default function Menu() {
   const { route, style } = getVSSM()
   const [isMobile, setIsMobile] = useState(window.innerWidth < 640)
   const [isOpen, setIsOpen] = useState(style.isMobile ? false : true)
   const [current, setCurrent] = useState({ route: 'introduction' })
-  useEffect(() => {
+
+  useLayoutEffect(() => {
     style.isMobile = () => {
       if (style.isMobile) setIsOpen(false)
       else setIsOpen(true)

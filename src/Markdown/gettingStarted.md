@@ -14,7 +14,7 @@ yarn add vssm
 
 ## Using the minified version
 
-If you wish to use Vssm's minified version (2.2Kb instead of 5Kb).
+If you wish to use Vssm's minified version (2Kb instead of 5Kb).
 
 You can download it directly from [here](https://github.com/tk-ni/vssm/blob/master/lib/vssm.min.js).
 
