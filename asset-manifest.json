@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/vssm-docs/static/css/main.cd097ff6.css",
+    "main.js": "/vssm-docs/static/js/main.bf57aa43.js",
+    "static/media/gettingStarted.md": "/vssm-docs/static/media/gettingStarted.57689be8608264e896f7.md",
+    "static/media/vue3.md": "/vssm-docs/static/media/vue3.8cf3fbcb4bc5645e4e93.md",
+    "static/media/quickGuide.md": "/vssm-docs/static/media/quickGuide.419dd0c330c7c5eb6daf.md",
+    "static/media/dosAndDonts.md": "/vssm-docs/static/media/dosAndDonts.454825c3e8f1b51816dc.md",
+    "static/media/introduction.md": "/vssm-docs/static/media/introduction.682d79b6e97e03a8d2e7.md",
+    "static/media/react.md": "/vssm-docs/static/media/react.277ae812c9cecb45632b.md",
+    "index.html": "/vssm-docs/index.html",
+    "static/media/javascriptFrameworks.md": "/vssm-docs/static/media/javascriptFrameworks.8db598826dce2b985bde.md",
+    "static/media/foundABug.md": "/vssm-docs/static/media/foundABug.5850314ba39ac7bf59d5.md",
+    "static/media/contribution.md": "/vssm-docs/static/media/contribution.9426c9b88c620abace06.md",
+    "main.cd097ff6.css.map": "/vssm-docs/static/css/main.cd097ff6.css.map",
+    "main.bf57aa43.js.map": "/vssm-docs/static/js/main.bf57aa43.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.cd097ff6.css",
+    "static/js/main.bf57aa43.js"
+  ]
+}
