@@ -31,6 +31,7 @@ export default function Menu() {
       >
         <div className="d-flex flex-column">
           <img
+            alt="very small state manager logo"
             onClick={handleLogoClick}
             className="logo cursor-pointer"
             src="/Vssm-docs/misc/assets/vssm_logo_small.png"

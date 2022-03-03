@@ -31,8 +31,6 @@ export default function Content() {
   const [markdown, setMarkdown] = useState('')
   const [isMobile, setIsMobile] = useState(style.isMobile)
   const [innerWidth, setInnerWidth] = useState(style.innerWidth)
-  const [nextRoute, setNextRoute] = useState(null)
-  const [previousRoute, setPreviousRoute] = useState(null)
   const getMD = async path => {
     try {
       const res = await fetch(docs[path])
@@ -42,22 +40,10 @@ export default function Content() {
       console.error(e)
     }
   }
-  const getNextAndPreviousRoutes = () => {
-    let currentIndex = route.paths.findIndex(r => r.route === route.current.route)
-    currentIndex === -1 && (currentIndex = 0)
-    if (route.paths[currentIndex - 1]) setPreviousRoute(route.paths[currentIndex - 1])
-    else setPreviousRoute(null)
-    if (route.paths[currentIndex + 1]) setNextRoute(route.paths[currentIndex + 1])
-    else setNextRoute(null)
-  }
 
   useEffect(() => {
-    getNextAndPreviousRoutes()
     getMD('introduction')
-    route.current = () => {
-      getMD(route.current.route)
-      getNextAndPreviousRoutes()
-    }
+    route.current = () => getMD(route.current.route)
     style.isMobile = () => setIsMobile(style.isMobile)
     style.innerWidth = () => setInnerWidth(style.innerWidth)
   }, [])
