@@ -14,7 +14,6 @@ import react from 'Markdown/react.md'
 import vue3 from 'Markdown/vue3.md'
 import foundABug from 'Markdown/foundABug.md'
 import contribution from 'Markdown/contribution.md'
-import ContentNavigation from './ContentNavigation'
 
 export default function Content() {
   const docs = {
@@ -128,7 +127,6 @@ export default function Content() {
             }
           }}
         />
-        <ContentNavigation previous={previousRoute} next={nextRoute} />
       </div>
     </div>
   )

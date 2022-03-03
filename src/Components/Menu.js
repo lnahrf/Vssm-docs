@@ -33,7 +33,7 @@ export default function Menu() {
           <img
             onClick={handleLogoClick}
             className="logo cursor-pointer"
-            src="/vssm-docs/misc/assets/vssm_logo_small.png"
+            src="/Vssm-docs/misc/assets/vssm_logo_small.png"
           />
           <small className="slogan">Very Small State Manager</small>
           <div className="w-100 separator" />
