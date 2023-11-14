@@ -1,22 +1,20 @@
 {
   "files": {
     "main.css": "/Vssm-docs/static/css/main.cd097ff6.css",
-    "main.js": "/Vssm-docs/static/js/main.3dcfa507.js",
-    "static/media/introduction.md": "/Vssm-docs/static/media/introduction.ae3ca060e360c83db970.md",
-    "static/media/gettingStarted.md": "/Vssm-docs/static/media/gettingStarted.c761564746284d5e7e65.md",
+    "main.js": "/Vssm-docs/static/js/main.70f820a8.js",
+    "static/media/gettingStarted.md": "/Vssm-docs/static/media/gettingStarted.69ccd98680650490de23.md",
+    "static/media/introduction.md": "/Vssm-docs/static/media/introduction.8e9bc8026c3fe301c960.md",
     "static/media/vue3.md": "/Vssm-docs/static/media/vue3.8cf3fbcb4bc5645e4e93.md",
     "static/media/quickGuide.md": "/Vssm-docs/static/media/quickGuide.419dd0c330c7c5eb6daf.md",
     "static/media/dosAndDonts.md": "/Vssm-docs/static/media/dosAndDonts.454825c3e8f1b51816dc.md",
     "static/media/react.md": "/Vssm-docs/static/media/react.277ae812c9cecb45632b.md",
     "index.html": "/Vssm-docs/index.html",
     "static/media/javascriptFrameworks.md": "/Vssm-docs/static/media/javascriptFrameworks.8db598826dce2b985bde.md",
-    "static/media/foundABug.md": "/Vssm-docs/static/media/foundABug.5850314ba39ac7bf59d5.md",
-    "static/media/contribution.md": "/Vssm-docs/static/media/contribution.9426c9b88c620abace06.md",
     "main.cd097ff6.css.map": "/Vssm-docs/static/css/main.cd097ff6.css.map",
-    "main.3dcfa507.js.map": "/Vssm-docs/static/js/main.3dcfa507.js.map"
+    "main.70f820a8.js.map": "/Vssm-docs/static/js/main.70f820a8.js.map"
   },
   "entrypoints": [
     "static/css/main.cd097ff6.css",
-    "static/js/main.3dcfa507.js"
+    "static/js/main.70f820a8.js"
   ]
 }
