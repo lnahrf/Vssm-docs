@@ -12,22 +12,6 @@ Or
 yarn add vssm
 ```
 
-## Using the minified version
-
-If you wish to use Vssm's minified version (2Kb instead of 5Kb).
-
-You can download it directly from [here](https://github.com/tk-ni/vssm/blob/master/lib/vssm.min.js).
-
-Along with the type declations file [here](https://github.com/tk-ni/vssm/blob/master/lib/vssm.min.d.ts).
-
-Simply import all of Vssm's functions from the minified file.
-
-```javascript
-import { createVSSM, createState, getVSSM } from 'path/to/vssm.min.js'
-```
-
-Or simply install Vssm using npm/yarn and import your functions from `"vssm/lib/vssm.min.js"`
-
 ## Javascript
 
 Configure your project's initial state

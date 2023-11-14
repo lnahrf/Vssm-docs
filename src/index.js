@@ -33,14 +33,6 @@ createVSSM({
       {
         title: 'Vue 3',
         route: 'vue3'
-      },
-      {
-        title: 'Found a Bug?',
-        route: 'foundABug'
-      },
-      {
-        title: 'Want to Contribute?',
-        route: 'contribution'
       }
     ],
     current: {}
