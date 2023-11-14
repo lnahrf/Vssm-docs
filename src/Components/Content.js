@@ -12,8 +12,6 @@ import gettingStarted from 'Markdown/gettingStarted.md'
 import javascriptFrameworks from 'Markdown/javascriptFrameworks.md'
 import react from 'Markdown/react.md'
 import vue3 from 'Markdown/vue3.md'
-import foundABug from 'Markdown/foundABug.md'
-import contribution from 'Markdown/contribution.md'
 
 export default function Content() {
   const docs = {
@@ -23,10 +21,9 @@ export default function Content() {
     gettingStarted: gettingStarted,
     javascriptFrameworks: javascriptFrameworks,
     react: react,
-    vue3: vue3,
-    foundABug: foundABug,
-    contribution: contribution
+    vue3: vue3
   }
+
   const { route, style } = getVSSM()
   const [markdown, setMarkdown] = useState('')
   const [isMobile, setIsMobile] = useState(style.isMobile)
